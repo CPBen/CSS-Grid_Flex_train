@@ -4,7 +4,7 @@ body {
 	grid-row-gap: 10px;
 	grid-template-areas: page_top
 											 logo;
-
+	justify-items: center;
 }
 
 header .page_top {
