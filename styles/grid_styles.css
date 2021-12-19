@@ -5,6 +5,7 @@ body {
 	grid-template-areas: page_top
 											 logo;
 	justify-items: center;
+	
 }
 
 header .page_top {
