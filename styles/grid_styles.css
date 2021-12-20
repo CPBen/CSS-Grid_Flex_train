@@ -33,6 +33,10 @@ header .page_top {
 
 }
 
+.cowboy_up {
+	grid-area: cowboy_up;
+}
+
 .declarations {
 	grid-area: declarations;
 	background-color: var(--clr-neon-link);
