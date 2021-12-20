@@ -10,12 +10,11 @@ body {
 
 header .page_top {
 	grid-area: page_top;
-	background-color:#3f1306;
-	color: #666;
 
 }
 
 .page_top {
+	background-color:#3f1306;
 	color: #666;
 
 }
