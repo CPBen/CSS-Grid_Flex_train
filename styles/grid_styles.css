@@ -52,7 +52,7 @@ header .page_top {
 
 .historical {
 	grid-area: historical;
-	background-color: purple;
-	color: #FFF;
+	background-color: #aaa;
+	color: var(--clr-neon-link);
 
 }
