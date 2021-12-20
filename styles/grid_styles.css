@@ -48,7 +48,7 @@ header .page_top {
 	grid-area: constitutions;
 	background-color: #000;
 	color: #666;
-
+}
 
 .historical {
 	grid-area: historical;
