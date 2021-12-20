@@ -23,7 +23,7 @@ header .page_top {
 }
 
 .page_top {
-	background-color:#3f1306;
+	background-color: #3f1306;
 	color: #666;
 
 }
@@ -46,13 +46,13 @@ header .page_top {
 
 .constitutions {
 	grid-area: constitutions;
-	background-color:#000;
+	background-color: #000;
 	color: #666;
 
 
 .historical {
 	grid-area: historical;
-	background-color:#3f1306;
-	color: #666;
+	background-color: purple;
+	color: #FFF;
 
 }
