@@ -10,7 +10,8 @@ body {
 	"cowboy_up"
 	"declarations"
 	"constitutions"
-	"historical"
+	"historical_economies"
+	"historical_laws"
 	"nothing";
 
 
@@ -80,14 +81,34 @@ header .page_top {
 	color: hsla(43, 100%, 62%, 1);
 }
 
-.historical {
+/*.historical {
 	grid-area: historical;
 	padding: 5px;
 
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
 
+}*/
+
+.historical_laws {
+	grid-area: historical_laws;
+	padding: 5px;
+
+	background-color: hsla(0, 0%, 0%, 1);
+	color: hsla(43, 100%, 62%, 1);
+
 }
+
+.historical_economies {
+	grid-area: historical_economies;
+	padding: 5px;
+
+	background-color: hsla(0, 0%, 0%, 1);
+	color: hsla(43, 100%, 62%, 1);
+
+}
+
+
 
 .nothing {
 	grid-area: nothing;
