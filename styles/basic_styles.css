@@ -69,12 +69,16 @@ ol {
 
 .normal_links {
 text-decoration: none;
+background: hsla(0, 0%, 0%, 1);
+color: hsla(304, 75%, 67%, 1);
+}
+
+.normal_links {
+text-decoration: none;
 background: hsla(304, 75%, 67%, 1);
 color: hsla(0, 0%, 0%, 1);
 }
 
-.normal_links:hover {
-text-decoration: none;
-background: hsla(0, 0%, 0%, 1);
-color: hsla(304, 75%, 67%, 1);
+.link_arrow {
+	color: var(--clr-neon-link);
 }
