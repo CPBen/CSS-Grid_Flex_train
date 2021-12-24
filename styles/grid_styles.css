@@ -36,6 +36,10 @@ header .page_top {
 
 }
 
+.main_page_title {
+	padding-bottom: 4px;
+}
+
 /*
  * Use for non home page page titles
  *
