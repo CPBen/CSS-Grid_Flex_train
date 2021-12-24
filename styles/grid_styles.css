@@ -22,7 +22,6 @@ header .page_top {
 }
 
 .page_top {
-	background: hsla(37, 100%, 59%, 1);
 	color: #666;
 
 }
@@ -33,6 +32,8 @@ header .page_top {
 
 .cowboy_up {
 	grid-area: cowboy_up;
+	background: hsla(37, 100%, 59%, 1);
+
 }
 
 .declarations {
