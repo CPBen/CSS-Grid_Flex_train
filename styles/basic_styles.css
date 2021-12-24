@@ -55,7 +55,7 @@ body {
 }
 /* Fix for pre-defined user styles in browsers */
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -65,6 +65,6 @@ p,
 ul,
 ol {
 	margin: 0 0 1em 0;   
-}
+}*/
 
 
