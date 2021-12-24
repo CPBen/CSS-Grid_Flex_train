@@ -67,4 +67,7 @@ ol {
 	margin: 0 0 1em 0;   
 }*/
 
-
+.normal_links {
+text-decoration: none;
+color: hsla(304, 75%, 67%, 1);
+}
