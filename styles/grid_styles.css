@@ -34,6 +34,16 @@ header .page_top {
 
 }
 
+.page_intro {
+color: hsla(360, 100%, 50%, 1);
+
+}
+
+.document_class {
+color: hsla(360, 100%, 50%, 1);
+
+}
+
 .cowboy_up {
 	grid-area: cowboy_up;
 	padding: 5px;
@@ -47,7 +57,7 @@ header .page_top {
 	padding: 5px;
 
 	background-color: hsla(0, 0%, 0%, 1);
-	color: #666;
+	color: hsla(360, 100%, 50%, 1);
 
 }
 
@@ -56,7 +66,7 @@ header .page_top {
 	padding: 5px;
 
 	background-color: hsla(0, 0%, 0%, 1);
-	color: #666;
+	color: hsla(360, 100%, 50%, 1);
 }
 
 .historical {
@@ -64,7 +74,7 @@ header .page_top {
 	padding: 5px;
 
 	background-color: hsla(0, 0%, 0%, 1);
-	color: var(--clr-neon-link);
+	color: hsla(360, 100%, 50%, 1);
 
 }
 
