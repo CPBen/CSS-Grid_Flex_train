@@ -26,7 +26,8 @@ header .page_top {
 }
 
 .page_top {
-	color: hsla(360, 100%, 50%, 1);
+/*	color: hsla(360, 100%, 50%, 1);*/
+	color: hsla(16, 100%, 53%, 1);
 
 }
 
