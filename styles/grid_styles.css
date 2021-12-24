@@ -35,12 +35,14 @@ header .page_top {
 }
 
 .page_intro {
-color: hsla(360, 100%, 50%, 1);
+	text-align: center;
+	color: hsla(360, 100%, 50%, 1);
 
 }
 
 .document_class {
-color: hsla(360, 100%, 50%, 1);
+	text-align: center;
+	color: hsla(360, 100%, 50%, 1);
 
 }
 
