@@ -10,7 +10,8 @@ body {
 	"cowboy_up"
 	"declarations"
 	"constitutions"
-	"historical";
+	"historical"
+	"nothing";
 
 
 	justify-items: center;
@@ -45,7 +46,7 @@ header .page_top {
 	grid-area: declarations;
 	padding: 5px;
 
-	background-color: var(--clr-neon-link);
+	background-color: hsla(0, 0%, 0%, 1);
 	color: #666;
 
 }
@@ -54,7 +55,7 @@ header .page_top {
 	grid-area: constitutions;
 	padding: 5px;
 
-	background-color: #000;
+	background-color: hsla(0, 0%, 0%, 1);
 	color: #666;
 }
 
@@ -62,7 +63,16 @@ header .page_top {
 	grid-area: historical;
 	padding: 5px;
 
-	background-color: #aaa;
+	background-color: hsla(0, 0%, 0%, 1);
+	color: var(--clr-neon-link);
+
+}
+
+.nothing {
+	grid-area: nothing;
+	padding: 5px;
+
+	background-color: hsla(0, 0%, 0%, 1);
 	color: var(--clr-neon-link);
 
 }
