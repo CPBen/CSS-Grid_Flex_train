@@ -4,15 +4,14 @@
 
 body {
 	display: grid;
-	padding: 5px;
 	grid-template-columns: 1fr;
-/*	grid-row-gap: 10px;*/
+	/*	grid-row-gap: 10px;*/
 	grid-template-areas: "page_top"
 	"cowboy_up"
 	"declarations"
 	"constitutions"
 	"historical";
-	
+
 
 	justify-items: center;
 
@@ -20,6 +19,8 @@ body {
 
 header .page_top {
 	grid-area: page_top;
+	padding: 5px;
+
 
 }
 
@@ -34,12 +35,16 @@ header .page_top {
 
 .cowboy_up {
 	grid-area: cowboy_up;
+	padding: 5px;
+
 	background: hsla(37, 100%, 59%, 1);
 
 }
 
 .declarations {
 	grid-area: declarations;
+	padding: 5px;
+
 	background-color: var(--clr-neon-link);
 	color: #666;
 
@@ -47,12 +52,16 @@ header .page_top {
 
 .constitutions {
 	grid-area: constitutions;
+	padding: 5px;
+
 	background-color: #000;
 	color: #666;
 }
 
 .historical {
 	grid-area: historical;
+	padding: 5px;
+
 	background-color: #aaa;
 	color: var(--clr-neon-link);
 
