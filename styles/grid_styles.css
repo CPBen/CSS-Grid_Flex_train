@@ -27,7 +27,7 @@ header .page_top {
 }
 
 .page_top {
-/*	color: hsla(360, 100%, 50%, 1);*/
+	/*	color: hsla(360, 100%, 50%, 1);*/
 	color: hsla(17, 100%, 58%, 1);
 
 }
@@ -49,103 +49,103 @@ header .page_top {
  *	 text-align: center;
  *   color: hsla(360, 100%, 50%, 1);
  * }
-*/
+ */
 
-.document_class {
-	text-align: center;
-	color: hsla(360, 100%, 50%, 1);
-}
+	.document_class {
+		text-align: center;
+		color: hsla(360, 100%, 50%, 1);
+	}
 
-.cowboy_up {
-	grid-area: cowboy_up;
-	padding: 5px;
-	background: hsla(37, 100%, 59%, 1);
-}
+	.cowboy_up {
+		grid-area: cowboy_up;
+		padding: 5px;
+		background: hsla(37, 100%, 59%, 1);
+	}
 
-.declarations {
-	grid-area: declarations;
-	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
-	color: hsla(43, 100%, 62%, 1);
+	.declarations {
+		grid-area: declarations;
+		padding: 5px;
+		background-color: hsla(0, 0%, 0%, 1);
+		color: hsla(43, 100%, 62%, 1);
 
-}
+	}
 
-.constitutions {
-	grid-area: constitutions;
-	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
-	color: hsla(43, 100%, 62%, 1);
-}
+	.constitutions {
+		grid-area: constitutions;
+		padding: 5px;
+		background-color: hsla(0, 0%, 0%, 1);
+		color: hsla(43, 100%, 62%, 1);
+	}
 
-/*.historical {
+	/*.historical {
 	grid-area: historical;
 	padding: 5px;
 
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
 
-}*/
+	}*/
 
-.historical_laws {
-	grid-area: historical_laws;
-	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
-	color: hsla(43, 100%, 62%, 1);
-}
+	.historical_laws {
+		grid-area: historical_laws;
+		padding: 5px;
+		background-color: hsla(0, 0%, 0%, 1);
+		color: hsla(43, 100%, 62%, 1);
+	}
 
-.historical_economies {
-	grid-area: historical_economies;
-	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
-	color: hsla(43, 100%, 62%, 1);
-}
+	.historical_economies {
+		grid-area: historical_economies;
+		padding: 5px;
+		background-color: hsla(0, 0%, 0%, 1);
+		color: hsla(43, 100%, 62%, 1);
+	}
 
-.nav_principal {
-	grid-area: nav_principal;
-	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
-	color:  var(--clr-neon-link);
-}
+	.nav_principal {
+		grid-area: nav_principal;
+		padding: 5px;
+		background-color: hsla(0, 0%, 0%, 1);
+		color:  var(--clr-neon-link);
+	}
 
-.normal_links {
-text-decoration: none;
-background: hsla(0, 0%, 0%, 1);
-color: hsla(332, 75%, 42%, 1);/*hsla(304, 75%, 67%, 1);*/
-}
+	.normal_links {
+		text-decoration: none;
+		background: hsla(0, 0%, 0%, 1);
+		color: hsla(332, 75%, 42%, 1);/*hsla(304, 75%, 67%, 1);*/
+	}
 
-.normal_links:hover {
-text-decoration: none;
-background: hsla(304, 75%, 67%, 1);
-color: hsla(0, 0%, 0%, 1);
-}
+	.normal_links:hover {
+		text-decoration: none;
+		background: hsla(304, 75%, 67%, 1);
+		color: hsla(0, 0%, 0%, 1);
+	}
 
-.nav_principal_list {
-background: hsla(238, 93%, 28%, 1);
-list-style-type: none;
-padding: 4px;
-font-size: 1.2rem;
-}
+	.nav_principal_list {
+		background: hsla(238, 93%, 28%, 1);
+		list-style-type: none;
+		padding: 4px;
+		font-size: 1.2rem;
+	}
 
-.nav_links {
-	line-height: 1.5em;
-	font-weight: 800;
-text-decoration: none;
-padding: 5px;
-color: hsla(360, 100%, 100%, 1);
-}
+	.nav_links {
+		line-height: 1.5em;
+		font-weight: 800;
+		text-decoration: none;
+		padding: 5px;
+		color: hsla(360, 100%, 100%, 1);
+	}
 
-.nav_links:hover {
-text-decoration: none;
-color: hsla(59, 100%, 73%, 1);
-}
+	.nav_links:hover {
+		text-decoration: none;
+		color: hsla(59, 100%, 73%, 1);
+	}
 
 
 
-/*.nothing {
+	/*.nothing {
 	grid-area: nothing;
 	padding: 5px;
 
 	background-color: hsla(0, 0%, 0%, 1);
 	color: var(--clr-neon-link);
 
-}*/
+	}*/
