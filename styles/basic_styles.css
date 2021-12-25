@@ -67,35 +67,6 @@ ol {
 	margin: 0 0 1em 0;   
 }*/
 
-.normal_links {
-text-decoration: none;
-background: hsla(0, 0%, 0%, 1);
-color: hsla(332, 75%, 42%, 1);/*hsla(304, 75%, 67%, 1);*/
-}
-
-.normal_links:hover {
-text-decoration: none;
-background: hsla(304, 75%, 67%, 1);
-color: hsla(0, 0%, 0%, 1);
-}
-
-.nav_principal_list {
-list-style-type: none;
-padding: 4px;
-
-}
-.nav_links {
-text-decoration: none;
-background: hsla(0, 0%, 0%, 1);
-color: color:  var(--clr-neon-link);/*hsla(332, 75%, 42%, 1);*//*hsla(304, 75%, 67%, 1);*/
-}
-
-.nav_links:hover {
-text-decoration: none;
-background: var(--clr-neon-link);
-color: hsla(0, 0%, 0%, 1);
-}
-
 .link_arrow {
 	color: var(--clr-neon-link);
 }
