@@ -81,7 +81,7 @@ color: hsla(0, 0%, 0%, 1);
 
 .nav_links {
 text-decoration: none;
-background: hsla(0, 0%, 0%, 0);
+background: hsla(0, 0%, 0%, 1);
 color: color:  var(--clr-neon-link);/*hsla(332, 75%, 42%, 1);*//*hsla(304, 75%, 67%, 1);*/
 }
 
