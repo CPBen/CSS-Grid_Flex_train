@@ -132,20 +132,20 @@ color: hsla(0, 0%, 0%, 1);
 }
 
 .nav_principal_list {
+background: hsla(238, 93%, 28%, 1);
 list-style-type: none;
 padding: 4px;
-
 }
+
 .nav_links {
 text-decoration: none;
-background: hsla(0, 0%, 0%, 1);
-color: color:  var(--clr-neon-link);/*hsla(332, 75%, 42%, 1);*//*hsla(304, 75%, 67%, 1);*/
+/*background: hsla(0, 0%, 0%, 1);*/
+color: hsla(360, 100%, 100%, 1);
 }
 
 .nav_links:hover {
 text-decoration: none;
-background: var(--clr-neon-link);
-color: hsla(0, 0%, 0%, 1);
+color: hsla(59, 100%, 73%, 1);
 }
 
 
