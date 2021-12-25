@@ -5,8 +5,8 @@
 body {
 	display: grid;
 	grid-template-columns: 1fr;
-	/*	grid-row-gap: 10px;*/
-	grid-template-areas: "page_top"
+	grid-template-areas:
+	"page_top"
 	"cowboy_up"
 	"declarations"
 	"constitutions"
@@ -27,7 +27,6 @@ header .page_top {
 }
 
 .page_top {
-	/*	color: hsla(360, 100%, 50%, 1);*/
 	color: hsla(17, 100%, 58%, 1);
 
 }
@@ -104,13 +103,12 @@ header .page_top {
 		grid-area: nav_principal;
 		padding: 5px;
 		background-color: hsla(0, 0%, 0%, 1);
-		color:  var(--clr-neon-link);
 	}
 
 	.normal_links {
 		text-decoration: none;
 		background: hsla(0, 0%, 0%, 1);
-		color: hsla(332, 75%, 42%, 1);/*hsla(304, 75%, 67%, 1);*/
+		color: hsla(332, 75%, 42%, 1);
 	}
 
 	.normal_links:hover {
@@ -141,11 +139,3 @@ header .page_top {
 
 
 
-	/*.nothing {
-	grid-area: nothing;
-	padding: 5px;
-
-	background-color: hsla(0, 0%, 0%, 1);
-	color: var(--clr-neon-link);
-
-	}*/
