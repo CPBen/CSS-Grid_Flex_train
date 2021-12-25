@@ -11,7 +11,8 @@ body {
 	"declarations"
 	"constitutions"
 	"historical_laws"
-	"historical_economies";
+	"historical_economies"
+	"nav_principal";
 
 
 	justify-items: center;
@@ -107,6 +108,15 @@ header .page_top {
 
 }
 
+.nav_principal {
+	grid-area: nav_principal;
+	padding: 5px;
+
+	background: hsla(37, 100%, 59%, 1);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
+	color:  var(--clr-neon-link);
+
+}
 
 
 /*.nothing {
