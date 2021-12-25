@@ -127,6 +127,7 @@ font-size: 1em;
 }
 
 .nav_links {
+	font-weight: 800;
 text-decoration: none;
 padding: 5px;
 color: hsla(360, 100%, 100%, 1);
