@@ -111,6 +111,7 @@ header .page_top {
 .nav_principal {
 	grid-area: nav_principal;
 	padding: 5px;
+	width: 100%;
 
 	background: hsla(37, 100%, 59%, 1);
 	/*background-color: hsla(0, 0%, 0%, 1);*/
