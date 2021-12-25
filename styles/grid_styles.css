@@ -54,22 +54,17 @@ header .page_top {
 .document_class {
 	text-align: center;
 	color: hsla(360, 100%, 50%, 1);
-	width: 100%;
-
 }
 
 .cowboy_up {
 	grid-area: cowboy_up;
 	padding: 5px;
-
 	background: hsla(37, 100%, 59%, 1);
-
 }
 
 .declarations {
 	grid-area: declarations;
 	padding: 5px;
-
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
 
@@ -78,7 +73,6 @@ header .page_top {
 .constitutions {
 	grid-area: constitutions;
 	padding: 5px;
-
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
 }
@@ -95,30 +89,22 @@ header .page_top {
 .historical_laws {
 	grid-area: historical_laws;
 	padding: 5px;
-
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
-
 }
 
 .historical_economies {
 	grid-area: historical_economies;
 	padding: 5px;
-
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
-
 }
 
 .nav_principal {
 	grid-area: nav_principal;
 	padding: 5px;
-/*	width: 100%;*/
-
-	background: hsla(37, 100%, 59%, 1);
-	/*background-color: hsla(0, 0%, 0%, 1);*/
+	background-color: hsla(0, 0%, 0%, 1);
 	color:  var(--clr-neon-link);
-
 }
 
 .normal_links {
@@ -137,11 +123,12 @@ color: hsla(0, 0%, 0%, 1);
 background: hsla(238, 93%, 28%, 1);
 list-style-type: none;
 padding: 4px;
+font-size: 1em;
 }
 
 .nav_links {
 text-decoration: none;
-/*background: hsla(0, 0%, 0%, 1);*/
+padding: 5px;
 color: hsla(360, 100%, 100%, 1);
 }
 
