@@ -124,10 +124,10 @@ background: hsla(238, 93%, 28%, 1);
 list-style-type: none;
 padding: 4px;
 font-size: 1.2rem;
-line-height: 1.5rem;
 }
 
 .nav_links {
+	line-height: 1.5em;
 	font-weight: 800;
 text-decoration: none;
 padding: 5px;
