@@ -18,11 +18,11 @@
 
 body {
 
+	display: grid;
 
 }
 
 @media screen and (min-width: 601px) {
-	display: grid;
 	grid-template-columns: 2fr 1fr;
 	grid-template-areas:
 	"top_header top_header"
@@ -37,7 +37,6 @@ body {
 }
 
 	@media screen and (max-width: 600px) {
-	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-areas:
 	"page_top"
