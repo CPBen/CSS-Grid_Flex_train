@@ -65,6 +65,12 @@ header .page_top {
 
 }
 
+.subsection_title {
+	font-size: var(--fs-subsection_title);
+	color: hsla(133, 58%, 53%, 1);
+	}
+
+
 /*
  * Use for non home page page titles
  *
@@ -84,12 +90,6 @@ header .page_top {
 		grid-area: cowboy_up;
 		padding: 5px;
 		background: hsla(37, 100%, 59%, 1);
-	}
-
-	.subsection_title {
-		font-size: var(--fs-subsection_title);
-		color: hsla(133, 58%, 53%, 1);
-
 	}
 
 	.declarations {
