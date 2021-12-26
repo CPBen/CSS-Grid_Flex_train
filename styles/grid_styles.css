@@ -1,4 +1,7 @@
 :root {
+	--fs-main_page_title: 2rem;
+	--fs-cowboy_up_chant: 1.2rem;
+	--fs-cowboy_up_purpose: 1rem;
 	--fs-subsection_normal_links: 1.0rem;
 	--clr-neon-link: rgb(57,255,20);
 	--fs-nav_principal_list: 1.2rem;
@@ -44,8 +47,19 @@ header .page_top {
 }
 
 .main_page_title {
+	font-size: var(--fs-main_page_title);
 	padding-bottom: 4px;
 	color: yellow;
+}
+
+.cowboy_up_chant {
+	font-size: var(--fs-cowboy_up_chant);
+
+}
+
+.cowboy_up_purpose {
+	font-size: var(--fs-cowboy_up_purpose);
+
 }
 
 /*
