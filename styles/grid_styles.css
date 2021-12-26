@@ -19,10 +19,21 @@
 body {
 
 	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-areas:
+	"top_header top_header"
+	"cowboy_up cowboy_up"
+	"declarations nav_principal"
+	"constitutions nav_principal" 
+	"annexations nav_principal" 
+	"historical_laws nav_principal" 
+	"historical_economies nav_principal"; 
+
+	justify-items: center;
 
 }
 
-	@media only screen and (max-width: 600px) {
+	@media (max-width: 600px) {
 		body {
 
 	grid-template-columns: 1fr;
@@ -40,23 +51,6 @@ body {
 }
 }
 
-
-@media only screen and (min-width: 600px) {
-body {
-	grid-template-columns: 2fr 1fr;
-	grid-template-areas:
-	"top_header top_header"
-	"cowboy_up cowboy_up"
-	"declarations nav_principal"
-	"constitutions nav_principal" 
-	"annexations nav_principal" 
-	"historical_laws nav_principal" 
-	"historical_economies nav_principal"; 
-
-	justify-items: center;
-
-}
-}
 
 
 .top_header {
