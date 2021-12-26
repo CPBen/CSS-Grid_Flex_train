@@ -32,7 +32,6 @@ body {
 } */
 
 	display: grid;
-	grid-auto-flow: rows;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-areas:
 	".......... page_top ............"
@@ -41,11 +40,10 @@ body {
 	"constitutions constitutions nav_principal" 
 	"annexations annexations nav_principal" 
 	"historical_laws historical_laws nav_principal" 
-	"historical_economies historical_economies nav_principal" 
-	;
+	"historical_economies historical_economies nav_principal"; 
 
 
-	justify-items: center;
+/*	justify-items: center;*/
 
 }
 
