@@ -10,6 +10,7 @@ body {
 	"cowboy_up"
 	"declarations"
 	"constitutions"
+	"annexations"
 	"historical_laws"
 	"historical_economies"
 	"nav_principal";
@@ -84,6 +85,13 @@ header .page_top {
 	color: hsla(43, 100%, 62%, 1);
 
 	}*/
+
+	.annexations {
+		grid-area: annexations;
+		padding: 5px;
+		background-color: hsla(0, 0%, 0%, 1);
+		color: hsla(43, 100%, 62%, 1);
+	}
 
 	.historical_laws {
 		grid-area: historical_laws;
