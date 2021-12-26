@@ -37,10 +37,10 @@ body {
 
 }
 
-body {
-	display: grid;
 
 	@media only screen and (max-width: 600px) {
+		body {
+
 	grid-template-columns: 1fr;
 	grid-template-areas:
 	"page_top"
