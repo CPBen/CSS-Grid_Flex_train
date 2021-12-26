@@ -16,6 +16,8 @@
 }
 
 body {
+
+	@media (max-width: 600px) {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-areas:
@@ -27,6 +29,19 @@ body {
 	"historical_laws"
 	"historical_economies"
 	"nav_principal";
+}
+
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-areas:
+	"page_top" "page_top"
+	"cowboy_up" "cowboy_up"
+	"declarations" "nav_principal"
+	"constitutions" "nav_principal" 
+	"annexations" "nav_principal" 
+	"historical_laws" "nav_principal" 
+	"historical_economies" "nav_principal" 
+	;
 
 
 	justify-items: center;
