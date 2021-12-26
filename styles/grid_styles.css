@@ -32,7 +32,7 @@ body {
 } */
 
 	display: grid;
-	grid-auto-flow: columns;
+	grid-auto-flow: rows;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-areas:
 	.......... "page_top" ............
