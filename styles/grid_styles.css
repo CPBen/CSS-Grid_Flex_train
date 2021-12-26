@@ -12,6 +12,7 @@
 	--padding-nav_principal_list: 4px;
 	--line-height-nav_links: 1.5em;
 	--fw-bold-nav_links: 800;
+	--grid-area-margin-bottom: 19px;
 
 }
 
@@ -134,6 +135,7 @@ body {
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
+	margin-bottom: var(--grid-area-margin-bottom);
 }
 
 .nav_principal {
