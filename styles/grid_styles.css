@@ -2,6 +2,9 @@
 	--fs-main_page_title: 2rem;
 	--fs-cowboy_up_chant: 1.2rem;
 	--fs-cowboy_up_purpose: 1rem;
+	--fs-document_class: 1.5rem;
+	--fs-normal_links: 1.2rem;
+	--fs-subsection_title: 1.2rem;
 	--fs-subsection_normal_links: 1.0rem;
 	--clr-neon-link: rgb(57,255,20);
 	--fs-nav_principal_list: 1.2rem;
@@ -72,6 +75,7 @@ header .page_top {
  */
 
 	.document_class {
+		font-size: var(--fs-document_class);
 		text-align: center;
 		color: hsla(360, 100%, 50%, 1);
 	}
@@ -83,6 +87,7 @@ header .page_top {
 	}
 
 	.subsection_title {
+		font-size: var(--fs-subsection_title);
 		color: hsla(133, 58%, 53%, 1);
 
 	}
@@ -139,12 +144,14 @@ header .page_top {
 	}
 
 	.normal_links {
+		font-size: var(--fs-normal_links);
 		text-decoration: none;
 		background: hsla(0, 0%, 0%, 1);
 		color: hsla(332, 75%, 42%, 1);
 	}
 
 	.normal_links:hover {
+		font-size: var(--fs-normal_links);
 		text-decoration: none;
 		background: hsla(304, 75%, 67%, 1);
 		color: hsla(0, 0%, 0%, 1);
