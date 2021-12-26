@@ -35,11 +35,11 @@ body {
 
 	/*
 	*	grid-auto-flow: rows;
-*	grid-template-columns: 1fr 1fr 1fr;
-*	grid-template-areas:
-*	.......... "page_top" ............
-*	............ "cowboy_up" ............
-*	"declarations" "declarations" "nav_principal"
+*	grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-areas:
+	.......... "page_top" ............
+	............ "cowboy_up" ............
+/*	"declarations" "declarations" "nav_principal"
 *	"constitutions" "constitutions" "nav_principal" 
 *	"annexations" "annexations" "nav_principal" 
 *	"historical_laws" "historical_laws" "nav_principal" 
