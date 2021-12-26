@@ -32,24 +32,20 @@ body {
 } */
 
 	display: grid;
-
-	/*
-	*	grid-auto-flow: rows; */
-	grid-gap: 5px;
-	grid-template-columns: 2fr 1fr; 
+	grid-auto-flow: rows;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-areas:
-	"page_top" "page_top" "page_top"
-	"cowboy_up" "cowboy_up";
-/*	"declarations" "declarations" "nav_principal"
-*	"constitutions" "constitutions" "nav_principal" 
-*	"annexations" "annexations" "nav_principal" 
-*	"historical_laws" "historical_laws" "nav_principal" 
-*	"historical_economies" "historical_economies" "nav_principal" 
-*	;
-*
-*
-*	justify-items: center;
-*/
+	".......... page_top ............"
+	"............ cowboy_up ............"
+	"declarations declarations nav_principal"
+	"constitutions constitutions nav_principal" 
+	"annexations annexations nav_principal" 
+	"historical_laws historical_laws nav_principal" 
+	"historical_economies historical_economies nav_principal" 
+	;
+
+
+	justify-items: center;
 
 }
 
