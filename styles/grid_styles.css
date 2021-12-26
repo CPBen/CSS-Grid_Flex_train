@@ -35,6 +35,7 @@ body {
 
 	/*
 	*	grid-auto-flow: rows; */
+	grid-gap: 5px;
 	grid-template-columns: 2fr 1fr; 
 	grid-template-areas:
 	"page_top" "page_top" 
