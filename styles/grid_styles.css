@@ -34,8 +34,8 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-areas:
-	"page_top" "page_top" "page_top"
-	"cowboy_up" "cowboy_up" "cowboy_up"
+	.......... "page_top" ............
+	............ "cowboy_up" ............
 	"declarations" "declarations" "nav_principal"
 	"constitutions" "constitutions" "nav_principal" 
 	"annexations" "annexations" "nav_principal" 
