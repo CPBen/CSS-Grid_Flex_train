@@ -18,6 +18,9 @@
 
 body {
 
+
+}
+
 @media screen and (min-width: 601px) {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
@@ -47,8 +50,6 @@ body {
 	"nav_principal";
 
 	justify-items: center;
-}
-
 }
 
 .top_header {
