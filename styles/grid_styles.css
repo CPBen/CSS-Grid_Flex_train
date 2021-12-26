@@ -17,7 +17,7 @@
 
 body {
 
-
+@media screen and (min-width: 601px) {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	grid-template-areas:
@@ -30,6 +30,7 @@ body {
 	"historical_economies nav_principal"; 
 
 	justify-items: center;
+}
 
 	@media screen and (max-width: 600px) {
 	display: grid;
