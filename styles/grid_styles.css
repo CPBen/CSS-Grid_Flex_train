@@ -19,15 +19,15 @@
 body {
 
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 1fr 2fr 1fr;
 	grid-template-areas:
-	"top_header top_header"
-	"cowboy_up cowboy_up"
-	"declarations nav_principal"
-	"constitutions nav_principal" 
-	"annexations nav_principal" 
-	"historical_laws nav_principal" 
-	"historical_economies nav_principal"; 
+	"top_header top_header top_header"
+	"cowboy_up cowboy_up cowboy_up "
+	"declarations declarations nav_principal"
+	"constitutions constitutions nav_principal" 
+	"annexations annexations nav_principal" 
+	"historical_laws historical_laws nav_principal" 
+	"historical_economies historical_economies nav_principal"; 
 
 	justify-items: center;
 
