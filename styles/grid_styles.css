@@ -16,7 +16,7 @@
 
 }
 
-body {
+main {
 
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
@@ -34,7 +34,7 @@ body {
 }
 
 	@media (max-width: 600px) {
-		body {
+		main {
 
 	grid-template-columns: 1fr;
 	grid-template-areas:
