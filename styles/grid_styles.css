@@ -1,0 +1,183 @@
+:root {
+	--fs-main_page_title: 2rem;
+	--fs-cowboy_up_chant: 1.2rem;
+	--fs-cowboy_up_purpose: 1rem;
+	--fs-document_class: 1.5rem;
+	--fs-normal_links: 1.2rem;
+	--fs-subsection_title: 1.2rem;
+	--fs-subsection_normal_links: 1.0rem;
+	--fs-link_descriptions: 1.0rem;
+	--clr-neon-link: rgb(57,255,20);
+	--fs-nav_principal_list: 1.2rem;
+	--padding-nav_principal_list: 4px;
+	--line-height-nav_links: 1.5em;
+	--fw-bold-nav_links: 800;
+
+}
+
+body {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"page_top"
+	"cowboy_up"
+	"declarations"
+	"constitutions"
+	"annexations"
+	"historical_laws"
+	"historical_economies"
+	"nav_principal";
+
+
+	justify-items: center;
+
+}
+
+header .page_top {
+	grid-area: page_top;
+	padding: 5px;
+
+
+}
+
+.page_top {
+	color: hsla(17, 100%, 58%, 1);
+
+}
+
+.title_logo {
+	text-align: center;
+
+}
+
+.main_page_title {
+	font-size: var(--fs-main_page_title);
+	padding-bottom: 4px;
+	color: yellow;
+}
+
+.cowboy_up_chant {
+	font-size: var(--fs-cowboy_up_chant);
+
+}
+
+.cowboy_up_purpose {
+	font-size: var(--fs-cowboy_up_purpose);
+
+}
+
+.subsection_title {
+	font-size: var(--fs-subsection_title);
+	color: hsla(133, 58%, 53%, 1);
+}
+
+.document_class {
+	font-size: var(--fs-document_class);
+	text-align: center;
+	color: hsla(360, 100%, 50%, 1);
+}
+
+.cowboy_up {
+	grid-area: cowboy_up;
+	padding: 5px;
+	background: hsla(37, 100%, 59%, 1);
+}
+
+.declarations {
+	grid-area: declarations;
+	padding: 5px;
+	background-color: hsla(0, 0%, 0%, 1);
+	color: hsla(43, 100%, 62%, 1);
+
+}
+
+.constitutions {
+	grid-area: constitutions;
+	padding: 5px;
+	background-color: hsla(0, 0%, 0%, 1);
+	color: hsla(43, 100%, 62%, 1);
+}
+
+.annexations {
+	grid-area: annexations;
+	padding: 5px;
+	background-color: hsla(0, 0%, 0%, 1);
+	color: hsla(43, 100%, 62%, 1);
+}
+
+.historical_laws {
+	grid-area: historical_laws;
+	padding: 5px;
+	background-color: hsla(0, 0%, 0%, 1);
+	color: hsla(43, 100%, 62%, 1);
+}
+
+.historical_economies {
+	grid-area: historical_economies;
+	padding: 5px;
+	background-color: hsla(0, 0%, 0%, 1);
+	color: hsla(43, 100%, 62%, 1);
+}
+
+.nav_principal {
+	grid-area: nav_principal;
+	padding: 5px;
+	background-color: hsla(0, 0%, 0%, 1);
+}
+
+.link_descriptions {
+	font-size: var(--fs-link_descriptions);
+}
+
+.normal_links {
+	font-size: var(--fs-normal_links);
+	text-decoration: none;
+	background: hsla(0, 0%, 0%, 1);
+	color: hsla(332, 75%, 42%, 1);
+}
+
+.normal_links:hover {
+	font-size: var(--fs-normal_links);
+	text-decoration: none;
+	background: hsla(304, 75%, 67%, 1);
+	color: hsla(0, 0%, 0%, 1);
+}
+
+.subsection_normal_links {
+	text-decoration: none;
+	font-size: var(--fs-subsection_normal_links);
+	background: hsla(0, 0%, 0%, 1);
+	color: hsla(332, 75%, 42%, 1);
+}
+
+.subsection_normal_links:hover {
+	text-decoration: none;
+	font-size: var(--fs-subsection_normal_links);
+	background: hsla(304, 75%, 67%, 1);
+	color: hsla(0, 0%, 0%, 1);
+}
+
+
+.nav_principal_list {
+	background: hsla(238, 93%, 28%, 1);
+	list-style-type: none;
+	font-size: var(--fs-nav_principal_list);
+	padding: var(--padding-nav_principal_list);
+}
+
+.nav_links {
+	line-height: var(--line-height-nav_links);
+	font-weight: var(--fw-bold-nav_links);
+	text-decoration: none;
+	color: hsla(360, 100%, 100%, 1);
+}
+
+.nav_links:hover {
+	line-height: var(--line-height-nav_links);
+	font-weight: var(--fw-bold-nav_links);
+	text-decoration: none;
+	color: hsla(59, 100%, 73%, 1);
+}
+
+
+
