@@ -127,7 +127,7 @@
 
 .declarations {
 	grid-area: declarations;
-	width: 66%;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -136,7 +136,7 @@
 
 .constitutions {
 	grid-area: constitutions;
-	width: 66%;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -145,7 +145,7 @@
 
 .annexations {
 	grid-area: annexations;
-	width: 66%;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -154,7 +154,7 @@
 
 .historical_laws {
 	grid-area: historical_laws;
-	width: 66%;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -163,7 +163,7 @@
 
 .historical_economies {
 	grid-area: historical_economies;
-	width: 66%;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
