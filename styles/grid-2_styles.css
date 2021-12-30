@@ -7,11 +7,11 @@
 		grid-template-areas:
 		"page_top page_top page_top"
 		"cowboy_up cowboy_up cowboy_up"
-		"nav_principal declarations declarations"
-		"nav_principal constitutions constitutions"
-		"nav_principal annexations annexations"
-		"nav_principal historical_laws historical_laws"
-		"nav_principal historical_economies historical_economies";
+		"declarations declarations declarations"
+		"constitutions constitutions constitutions"
+		"annexations annexations annexations"
+		"historical_laws historical_laws historical_laws"
+		"nav_principal nav_principal nav_principal";
 
 
 		/*justify-items: center;*/
