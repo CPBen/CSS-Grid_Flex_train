@@ -12,6 +12,7 @@
 	--padding-nav_principal_list: 4px;
 	--line-height-nav_links: 1.5em;
 	--fw-bold-nav_links: 800;
+	--border-radius: 4px;
 
 }
 
@@ -103,6 +104,7 @@ header .page_top {
 	grid-area: cowboy_up;
 	padding: 5px;
 	background: hsla(37, 100%, 59%, 1);
+	border-radius: var(--border-radius);
 }
 
 .declarations {
@@ -110,7 +112,7 @@ header .page_top {
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
-
+	border-radius: var(--border-radius);
 }
 
 .constitutions {
@@ -118,6 +120,7 @@ header .page_top {
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
+	border-radius: var(--border-radius);
 }
 
 .annexations {
@@ -125,6 +128,7 @@ header .page_top {
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
+	border-radius: var(--border-radius);
 }
 
 .historical_laws {
@@ -132,6 +136,7 @@ header .page_top {
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
+	border-radius: var(--border-radius);
 }
 
 .historical_economies {
@@ -139,12 +144,14 @@ header .page_top {
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
+	border-radius: var(--border-radius);
 }
 
 .nav_principal {
 	grid-area: nav_principal;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
+	border-radius: var(--border-radius);
 }
 
 .link_descriptions {
