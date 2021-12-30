@@ -61,11 +61,10 @@
 		grid-template-areas:
 		"page_top page_top page_top"
 		"cowboy_up cowboy_up cowboy_up"
-		"declarations declarations declarations"
-		"constitutions constitutions constitutions"
-		"annexations annexations annexations"
-		"historical_laws historical_laws historical_laws"
-		"nav_principal nav_principal nav_principal";
+		"nav_principal declarations declarations"
+		"nav_principal constitutions constitutions"
+		"nav_principal annexations annexations"
+		"nav_principal historical_laws historical_laws";
 align-content: center;
 
 		justify-items: center;
@@ -129,7 +128,7 @@ align-content: center;
 
 .declarations {
 	grid-area: declarations;
-	width: 100%;
+	width: 66%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -138,7 +137,7 @@ align-content: center;
 
 .constitutions {
 	grid-area: constitutions;
-	width: 100%;
+	width: 66%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -147,7 +146,7 @@ align-content: center;
 
 .annexations {
 	grid-area: annexations;
-	width: 100%;
+	width: 66%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -156,7 +155,7 @@ align-content: center;
 
 .historical_laws {
 	grid-area: historical_laws;
-	width: 100%;
+	width: 66%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -165,7 +164,7 @@ align-content: center;
 
 .historical_economies {
 	grid-area: historical_economies;
-	width: 100%;
+	width: 66%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -174,7 +173,7 @@ align-content: center;
 
 .nav_principal {
 	grid-area: nav_principal;
-	width: 100%;
+	width: 33%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	border-radius: var(--border-radius);
