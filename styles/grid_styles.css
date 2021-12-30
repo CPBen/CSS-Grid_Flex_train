@@ -76,6 +76,7 @@ align-content: center;
 header .page_top {
 	grid-area: page_top;
 	padding: 5px;
+	width: 100%;
 
 
 }
