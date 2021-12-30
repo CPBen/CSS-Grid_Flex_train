@@ -52,6 +52,7 @@ header .page_top {
 
 .main_page_title {
 	font-size: var(--fs-main_page_title);
+	text-align="center";
 	padding-bottom: 4px;
 	color: yellow;
 }
