@@ -121,6 +121,7 @@ align-content: center;
 
 .cowboy_up {
 	grid-area: cowboy_up;
+	width: 100%;
 	padding: 5px;
 	background: hsla(37, 100%, 59%, 1);
 	border-radius: var(--border-radius);
@@ -128,6 +129,7 @@ align-content: center;
 
 .declarations {
 	grid-area: declarations;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -136,6 +138,7 @@ align-content: center;
 
 .constitutions {
 	grid-area: constitutions;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -144,6 +147,7 @@ align-content: center;
 
 .annexations {
 	grid-area: annexations;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -152,6 +156,7 @@ align-content: center;
 
 .historical_laws {
 	grid-area: historical_laws;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -160,6 +165,7 @@ align-content: center;
 
 .historical_economies {
 	grid-area: historical_economies;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	color: hsla(43, 100%, 62%, 1);
@@ -168,6 +174,7 @@ align-content: center;
 
 .nav_principal {
 	grid-area: nav_principal;
+	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
 	border-radius: var(--border-radius);
