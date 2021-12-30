@@ -75,7 +75,6 @@
 .page_top {
 	grid-area: page_top;
 	padding: 5px;
-	width: 100%;
 
 
 }
@@ -120,7 +119,6 @@
 
 .cowboy_up {
 	grid-area: cowboy_up;
-	width: 100%;
 	padding: 5px;
 	background: hsla(37, 100%, 59%, 1);
 	border-radius: var(--border-radius);
