@@ -15,7 +15,8 @@
 
 }
 
-body {
+/*
+ * body {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-areas:
@@ -32,6 +33,26 @@ body {
 	justify-items: center;
 
 }
+*/
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"page_top"
+	"cowboy_up"
+	"declarations"
+	"constitutions"
+	"annexations"
+	"historical_laws"
+	"historical_economies"
+	"nav_principal";
+
+
+	justify-items: center;
+
+}
+
 
 header .page_top {
 	grid-area: page_top;
