@@ -36,7 +36,7 @@
 }
 */
 
-.container {
+/*.container {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-areas:
@@ -52,7 +52,25 @@
 
 	justify-items: center;
 
-}
+}*/
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		/*grid-template-rows: auto;*/
+		grid-gap: 10px;
+		grid-template-areas:
+		"page_top page_top page_top"
+		"cowboy_up cowboy_up cowboy_up"
+		"declarations declarations declarations"
+		"constitutions constitutions constitutions"
+		"annexations annexations annexations"
+		"historical_laws historical_laws historical_laws"
+		"nav_principal nav_principal nav_principal";
+
+
+		/*justify-items: center;*/
+
+	}
 
 
 header .page_top {
