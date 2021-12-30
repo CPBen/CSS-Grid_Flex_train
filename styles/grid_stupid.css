@@ -55,7 +55,7 @@
 }*/
 	.container {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: repeat(3, 1fr);
 		/*grid-template-rows: auto;*/
 		grid-gap: 10px;
 		grid-template-areas:
@@ -64,7 +64,8 @@
 		"nav_principal declarations declarations"
 		"nav_principal constitutions constitutions"
 		"nav_principal annexations annexations"
-		"nav_principal historical_laws historical_laws";
+		"nav_principal historical_laws historical_laws"
+		"nav_principal historical_economies historical_economies";
 /*align-content: center;
 
 		justify-items: center;*/
