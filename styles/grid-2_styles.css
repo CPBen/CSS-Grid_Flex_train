@@ -1,0 +1,20 @@
+@media only screen and (min-width: 600px)   {
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+		"page_top page_top"
+		"cowboy_up cowboy_up"
+		"nav_principal declarations"
+		"nav_principal constitutions"
+		"nav_principal annexations"
+		"nav_principal historical_laws"
+		"nav_principal historical_economies";
+
+
+		/*justify-items: center;*/
+
+	}
+
+}
