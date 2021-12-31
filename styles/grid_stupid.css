@@ -16,61 +16,48 @@
 
 }
 
-/*
- * body {
+
+
+.container {
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	/*grid-template-rows: auto;*/
+	grid-gap: 10px;
 	grid-template-areas:
-	"page_top"
-	"cowboy_up"
-	"declarations"
-	"constitutions"
-	"annexations"
-	"historical_laws"
-	"historical_economies"
-	"nav_principal";
+	"page_top page_top page_top"
+	"cowboy_up cowboy_up cowboy_up"
+	"nav_principal declarations declarations"
+	"nav_principal constitutions constitutions"
+	"nav_external annexations annexations"
+	"nav_external historical_laws historical_laws"
+	"nav_external historical_economies historical_economies";
+	/*align-content: center;
 
-
-	justify-items: center;
+	justify-items: center;*/
 
 }
-*/
 
-/*.container {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-areas:
-	"page_top"
-	"cowboy_up"
-	"declarations"
-	"constitutions"
-	"annexations"
-	"historical_laws"
-	"historical_economies"
-	"nav_principal";
-
-
-	justify-items: center;
-
-}*/
+@media only screen and (max-width: 600px) {
 	.container {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		/*grid-template-rows: auto;*/
-		grid-gap: 10px;
+		grid-template-columns: 1fr;
 		grid-template-areas:
-		"page_top page_top page_top"
-		"cowboy_up cowboy_up cowboy_up"
-		"nav_principal declarations declarations"
-		"nav_principal constitutions constitutions"
-		"nav_external annexations annexations"
-		"nav_external historical_laws historical_laws"
-		"nav_external historical_economies historical_economies";
-/*align-content: center;
+		"page_top"
+		"cowboy_up"
+		"declarations"
+		"constitutions"
+		"annexations"
+		"historical_laws"
+		"historical_economies"
+		"nav_principal"
+		"nav_external";
 
-		justify-items: center;*/
+
+		justify-items: center;
 
 	}
+}
+
 
 
 .page_top {
