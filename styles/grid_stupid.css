@@ -64,8 +64,8 @@
 		"nav_principal declarations declarations"
 		"nav_principal constitutions constitutions"
 		"nav_principal annexations annexations"
-		"nav_principal historical_laws historical_laws"
-		"nav_principal historical_economies historical_economies";
+		"nav_external historical_laws historical_laws"
+		"nav_external historical_economies historical_economies";
 /*align-content: center;
 
 		justify-items: center;*/
@@ -172,6 +172,14 @@
 
 .nav_principal {
 	grid-area: nav_principal;
+	width: 100%;
+	padding: 5px;
+	background-color: hsla(0, 0%, 0%, 1);
+	border-radius: var(--border-radius);
+}
+
+.nav_external {
+	grid-area: nav_external;
 	width: 100%;
 	padding: 5px;
 	background-color: hsla(0, 0%, 0%, 1);
