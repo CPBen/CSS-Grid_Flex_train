@@ -64,7 +64,7 @@
  */
 
 
-.site_navigation a::focus, .offsite_navigation a::focus, .sections_start a::focus {
+.site_navigation a:focus, .offsite_navigation a:focus, .sections_start a:focus {
   position: static;
 	top: 500px;
 	width: auto;
@@ -74,7 +74,7 @@
 
 }
  
-.site_navigation a::hover, .offsite_navigation a::hover, .sections_start a::hover {
+.site_navigation a:hover, .offsite_navigation a:hover, .sections_start a:hover {
   position: static;
 	top: 500px;
 	width: auto;
