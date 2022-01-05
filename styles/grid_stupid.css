@@ -40,7 +40,7 @@
 }
 
 .site_navigation, .offsite_navigation, .sections_start {
-	display: none;
+	/*display: none;*/
 	background: black;
 	line-height: 2.1rem;
 	padding: 0.5rem 1.5rem;
@@ -72,14 +72,14 @@
  *}
  */
 
-.sections_start::focus {
+a #sections_start::focus {
    display: block;
    background: red;
    /*[>transform: translateY(600px);<]*/
  
  }
  
-.sections_start::hover {
+a #sections_start::hover {
 	display: block;
 	background: green;
 	/*transform: translateY(600px);*/
