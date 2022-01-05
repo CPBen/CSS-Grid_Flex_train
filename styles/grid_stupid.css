@@ -40,17 +40,17 @@
 }
 
 .site_navigation, .offsite_navigation, .sections_start {
-	/*display: none;*/
+	position: absolute;
 	background: black;
 	line-height: 2.1rem;
 	padding: 0.5rem 1.5rem;
 	border-radius: 0 0 0.25rem 0.25rem;
-	/*position: fixed;*/
 	margin: 0.5rem 0.5rem;
-	/*margin-left: 0.5rem;*/
-	/*width: clamp( (min-content + 50px), max-content, 109px );*/
-	width: 109px;
-	/*margin-bottom: 1.5rem;*/
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	left: 0.5rem;
+	top: -500px;
 	/*transform: translateY(-600px);*/
 	/*transition: transform 325ms ease-in;*/
 }
@@ -63,35 +63,26 @@
  *}
  */
 
-/*
- *.site_navigation::focus, .offsite_navigation::focus, .sections_start::focus {
- *  display: block;
- *  background: red;
- *  [>transform: translateY(600px);<]
- *
- *}
- */
 
-a #sections_start::focus {
-   display: block;
-   background: red;
-   /*[>transform: translateY(600px);<]*/
- 
- }
- 
-a #sections_start::hover {
-	display: block;
-	background: green;
-	/*transform: translateY(600px);*/
+.site_navigation a::focus, .offsite_navigation a::focus, .sections_start a::focus {
+  position: static;
+	top: 500px;
+	width: auto;
+	height: auto;
+  background: red;
+  /*transform: translateY(600px);*/
+
 }
-
-/*
- *.site_navigation::hover, .offsite_navigation::hover, .sections_start::hover {
- *  display: block;
- *  background: green;
- *  [>transform: translateY(600px);<]
- *}
- */
+ 
+.site_navigation a::hover, .offsite_navigation a::hover, .sections_start a::hover {
+  position: static;
+	top: 500px;
+	width: auto;
+	height: auto;
+  background: green;
+  /*transform: translateY(600px);*/
+}
+ 
 
 .push_left {
 	margin-right: 100px;
