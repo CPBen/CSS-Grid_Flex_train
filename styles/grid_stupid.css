@@ -1,5 +1,5 @@
 :root {
-	--fs-main_page_title: 2rem;
+	--fs-main_page_title: 3rem;
 	--fs-cowboy_up_chant: 1.2rem;
 	--fs-cowboy_up_purpose: 1rem;
 	--fs-document_class: 1.5rem;
@@ -13,6 +13,15 @@
 	--line-height-nav_links: 1.5em;
 	--fw-bold-nav_links: 800;
 	--border-radius: 4px;
+
+	--light-color: hsla(43, 100%, 62%, 1);
+	/*background: hsla(0, 98%, 8%, 1);*/
+
+	--lightest-palette-color: hsla(37, 100%, 50%, 1);
+	--second-lightest-palette-color: hsla(34, 100%, 41%, 1);
+	--middle-palette-color: hsla(30, 100%, 32%, 1);
+	--second-darkest-palette-color: hsla(23, 100%, 24%, 1);
+	--darkest-palette-color: hsla(6, 100%, 17%, 1);
 
 /*
  * #ff9d00  hsla(37, 100%, 50%, 1) 
@@ -79,7 +88,8 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	/*grid-template-rows: auto;*/
-	grid-gap: 10px;
+	grid-column-gap: 10px;
+	grid-row-gap: 30px;
 	grid-template-areas:
 	"page_top page_top page_top"
 	"cowboy_up cowboy_up cowboy_up"
@@ -98,6 +108,8 @@
 	.container {
 		display: grid;
 		grid-template-columns: 1fr;
+		grid-row-gap: 15px;
+
 		grid-template-areas:
 		"page_top"
 		"cowboy_up"
@@ -135,6 +147,8 @@
 
 .page_top {
 	color: hsla(17, 100%, 58%, 1);
+	background: hsla(0, 98%, 8%, 1);
+	/*background: var(--darkest-palette-color);*/
 
 }
 
@@ -148,16 +162,23 @@
 	font-size: var(--fs-main_page_title);
 	text-align: center;
 	padding-bottom: 4px;
-	color: yellow;
+	/*background: var(--second-darkest-palette-color);*/
+	color: var(--lightest-palette-color);
 }
 
 .cowboy_up_chant {
 	font-size: var(--fs-cowboy_up_chant);
+	color: var(--light-color);
+	/*color: var(--darkest-palette-color);*/
+	/*background: var(--darkest-palette-color);*/
+	/*background: var(--second-darkest-palette-color);*/
 
 }
 
 .cowboy_up_purpose {
 	font-size: var(--fs-cowboy_up_purpose);
+	/*background: var(--darkest-palette-color);*/
+	color: var(--light-color);
 
 }
 
@@ -169,13 +190,18 @@
 .document_class {
 	font-size: var(--fs-document_class);
 	text-align: center;
-	color: hsla(360, 100%, 50%, 1);
+	color: var(--light-color);
+	background: hsla(0, 0%, 0%, 1);
+	/*color: hsla(360, 100%, 50%, 1);*/
 }
 
 .cowboy_up {
 	grid-area: cowboy_up;
 	padding: 5px;
-	background: hsla(37, 100%, 59%, 1);
+	/*background: var(--darkest-palette-color);*/
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background: hsla(37, 100%, 59%, 1);*/
 	border-radius: var(--border-radius);
 }
 
@@ -183,8 +209,10 @@
 	grid-area: declarations;
 	width: 100%;
 	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
-	color: hsla(43, 100%, 62%, 1);
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
+	/*color: hsla(43, 100%, 62%, 1);*/
 	border-radius: var(--border-radius);
 }
 
@@ -192,8 +220,10 @@
 	grid-area: constitutions;
 	width: 100%;
 	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
-	color: hsla(43, 100%, 62%, 1);
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
+	/*color: hsla(43, 100%, 62%, 1);*/
 	border-radius: var(--border-radius);
 }
 
@@ -201,7 +231,9 @@
 	grid-area: annexations;
 	width: 100%;
 	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
 	color: hsla(43, 100%, 62%, 1);
 	border-radius: var(--border-radius);
 }
@@ -210,7 +242,9 @@
 	grid-area: historical_laws;
 	width: 100%;
 	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
 	color: hsla(43, 100%, 62%, 1);
 	border-radius: var(--border-radius);
 }
@@ -219,7 +253,9 @@
 	grid-area: historical_economies;
 	width: 100%;
 	padding: 5px;
-	background-color: hsla(0, 0%, 0%, 1);
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
 	color: hsla(43, 100%, 62%, 1);
 	border-radius: var(--border-radius);
 }
@@ -242,13 +278,17 @@
 
 .link_descriptions {
 	font-size: var(--fs-link_descriptions);
+	background: hsla(0, 98%, 8%, 1);
+	/*background: var(--lightest-palette-color);*/
 }
 
 .normal_links {
 	font-size: var(--fs-normal_links);
 	text-decoration: none;
-	background: hsla(0, 0%, 0%, 1);
-	color: hsla(332, 75%, 42%, 1);
+	background: var(--darkest-palette-color);
+	/*background: hsla(0, 0%, 0%, 1);*/
+	/*color: hsla(332, 75%, 42%, 1);*/
+	color: #ffebcd;
 }
 
 .normal_links:hover {
@@ -261,8 +301,10 @@
 .subsection_normal_links {
 	text-decoration: none;
 	font-size: var(--fs-subsection_normal_links);
-	background: hsla(0, 0%, 0%, 1);
-	color: hsla(332, 75%, 42%, 1);
+	background: var(--darkest-palette-color);
+	/*background: hsla(0, 0%, 0%, 1);*/
+	/*color: hsla(332, 75%, 42%, 1);*/
+	color: #ffebcd;
 }
 
 .subsection_normal_links:hover {
