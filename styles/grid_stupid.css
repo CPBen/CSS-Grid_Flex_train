@@ -28,7 +28,7 @@
 }
 
 .skip_to_links::focus {
-	transform: translateY(100%);
+	transform: translateY(200%);
 }
 
 .container {
