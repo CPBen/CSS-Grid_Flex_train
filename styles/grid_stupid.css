@@ -16,7 +16,20 @@
 
 }
 
+.skip_to_links {
+	display: none;
+	background: black;
+	padding: 0.5rem 1.5rem;
+	border-radius: 0 0 0.25rem 0.25rem;
+	position: absolute;
+	margin-left: 0.5rem;
+	transform: translateY(-120%);
+	transition: transform 325ms ease-in;
+}
 
+.skip_to_links::focus {
+	transform: translateY(0);
+}
 
 .container {
 	display: grid;
