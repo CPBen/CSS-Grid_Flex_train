@@ -1,0 +1,387 @@
+:root {
+	--fs-main_page_title: 3rem;
+	--fs-cowboy_up_chant: 1.2rem;
+	--fs-cowboy_up_purpose: 1rem;
+	--fs-document_class: 1.5rem;
+	--fs-normal_links: 1.2rem;
+	--fs-subsection_title: 1.2rem;
+	--fs-subsection_normal_links: 1.0rem;
+	--fs-link_descriptions: 1.0rem;
+	--clr-neon-link: rgb(57,255,20);
+	--fs-nav_principal_list: 1.2rem;
+	--padding-nav_principal_list: 4px;
+	--line-height-nav_links: 1.5em;
+	--fw-bold-nav_links: 800;
+	--border-radius: 4px;
+
+	--light-color: hsla(43, 100%, 62%, 1);
+	/*background: hsla(0, 98%, 8%, 1);*/
+
+	--lightest-palette-color: hsla(37, 100%, 50%, 1);
+	--second-lightest-palette-color: hsla(34, 100%, 41%, 1);
+	--middle-palette-color: hsla(30, 100%, 32%, 1);
+	--second-darkest-palette-color: hsla(23, 100%, 24%, 1);
+	--darkest-palette-color: hsla(6, 100%, 17%, 1);
+
+/*
+ * #ff9d00  hsla(37, 100%, 50%, 1) 
+ * #d07700  hsla(34, 100%, 41%, 1)
+ * #a35200  hsla(30, 100%, 32%, 1)
+ * #792f00  hsla(23, 100%, 24%, 1)
+ * #550900  hsla(6, 100%, 17%, 1)
+ */
+
+}
+
+.skip_to_links {
+	position: absolute;
+	line-height: 2.1rem;
+	padding: 0.5rem 1.5rem;
+	border-radius: 0 0 0.25rem 0.25rem;
+	margin: 0.5rem 0.5rem;
+	background: black;
+	transform: translateY(-108%);
+	/*transition: transform 325ms ease-in;*/
+}
+
+.skip_to_links:hover {
+	transform: translateY(-12%);
+	transition: transform 325ms ease-in;
+}
+
+.skip_to_links:focus {
+	transform: translateY(-12%);
+	transition: transform 325ms ease-in;
+}
+
+.skip_to_links:active {
+	transform: translateY(-12%);
+	transition: transform 325ms ease-in;
+}
+
+
+.site_navigation a, .offsite_navigation a, .sections_start a {
+	color: #ffebcd;
+	/*position: absolute;*/
+	/*background: black;*/
+	/*
+	 *line-height: 2.1rem;
+	 *padding: 0.5rem 1.5rem;
+	 *border-radius: 0 0 0.25rem 0.25rem;
+	 *margin: 0.5rem 0.5rem;
+	 */
+ /* width: 1px;*/
+	/*height: 1px;*/
+	/*overflow: hidden;*/
+	/*left: 0.5rem;*/
+	/*top: -500px;*/
+	/*transform: translateY(-120px);*/
+	/*transition: transform 325ms ease-in;*/
+}
+
+/*
+ *.skip_to_links::hover {
+ *  [>display: block;<]
+ *  transform: translateY(200px);
+ *  background: green;
+ *}
+ */
+
+
+/*.site_navigation a:hover {*/
+ /*  [>position: static;<]
+ *  [>top: 500px;<]
+ *  width: auto;
+ *  height: auto;*/
+   /*background: red;*/
+   /*transform: translateY(-120%);*/
+ 
+/*}*/
+ 
+
+/*.site_navigation a:focus, .offsite_navigation a:focus, .sections_start a:focus {*/
+  /*position: static;*/
+	/*top: 500px;*/
+	/*width: auto;*/
+	/*height: auto;*/
+  /*background: red;*/
+  /*[>transform: translateY(600px);<]*/
+
+/*}*/
+ 
+/*
+ *.site_navigation a:hover, .offsite_navigation a:hover, .sections_start a:hover {
+ *  position: static;
+ *  top: 500px;
+ *  width: auto;
+ *  height: auto;
+ *  background: green;
+ *  [>transform: translateY(600px);<]
+ *}
+ */
+ 
+
+.push_left {
+	margin-right: 100px;
+}
+
+.push_right {
+	margin-left: 100px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/*grid-template-rows: auto;*/
+	grid-column-gap: 10px;
+	grid-row-gap: 30px;
+	grid-template-areas:
+	"page_top page_top page_top"
+	"cowboy_up cowboy_up cowboy_up"
+	"nav_principal declarations declarations"
+	"nav_principal constitutions constitutions"
+	"nav_external annexations annexations"
+	"nav_external historical_laws historical_laws"
+	"nav_external historical_economies historical_economies";
+	/*align-content: center;
+
+	justify-items: center;*/
+
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 15px;
+
+		grid-template-areas:
+		"page_top"
+		"cowboy_up"
+		"declarations"
+		"constitutions"
+		"annexations"
+		"historical_laws"
+		"historical_economies"
+		"nav_principal"
+		"nav_external";
+
+
+		justify-items: center;
+
+	}
+
+}
+
+@media only screen and (max-width: 1000px) {
+	.push_left {
+		display: none;
+	}
+
+	.push_right {
+		display: none;
+	}
+}
+
+.page_top {
+	grid-area: page_top;
+	padding: 5px;
+
+
+}
+
+.page_top {
+	color: hsla(17, 100%, 58%, 1);
+	background: hsla(0, 98%, 8%, 1);
+	/*background: var(--darkest-palette-color);*/
+
+}
+
+.title_logo {
+	text-align: center;
+
+}
+
+
+.main_page_title {
+	font-size: var(--fs-main_page_title);
+	text-align: center;
+	padding-bottom: 4px;
+	/*background: var(--second-darkest-palette-color);*/
+	color: var(--lightest-palette-color);
+}
+
+.cowboy_up_chant {
+	font-size: var(--fs-cowboy_up_chant);
+	color: var(--light-color);
+	/*color: var(--darkest-palette-color);*/
+	/*background: var(--darkest-palette-color);*/
+	/*background: var(--second-darkest-palette-color);*/
+
+}
+
+.cowboy_up_purpose {
+	font-size: var(--fs-cowboy_up_purpose);
+	/*background: var(--darkest-palette-color);*/
+	color: var(--light-color);
+
+}
+
+.subsection_title {
+	font-size: var(--fs-subsection_title);
+	color: hsla(133, 58%, 53%, 1);
+}
+
+.document_class {
+	font-size: var(--fs-document_class);
+	text-align: center;
+	color: var(--light-color);
+	background: hsla(0, 0%, 0%, 1);
+	/*color: hsla(360, 100%, 50%, 1);*/
+}
+
+.cowboy_up {
+	grid-area: cowboy_up;
+	padding: 5px;
+	/*background: var(--darkest-palette-color);*/
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background: hsla(37, 100%, 59%, 1);*/
+	border-radius: var(--border-radius);
+}
+
+.declarations {
+	grid-area: declarations;
+	width: 100%;
+	padding: 5px;
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
+	/*color: hsla(43, 100%, 62%, 1);*/
+	border-radius: var(--border-radius);
+}
+
+.constitutions {
+	grid-area: constitutions;
+	width: 100%;
+	padding: 5px;
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
+	/*color: hsla(43, 100%, 62%, 1);*/
+	border-radius: var(--border-radius);
+}
+
+.annexations {
+	grid-area: annexations;
+	width: 100%;
+	padding: 5px;
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
+	color: hsla(43, 100%, 62%, 1);
+	border-radius: var(--border-radius);
+}
+
+.historical_laws {
+	grid-area: historical_laws;
+	width: 100%;
+	padding: 5px;
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
+	color: hsla(43, 100%, 62%, 1);
+	border-radius: var(--border-radius);
+}
+
+.historical_economies {
+	grid-area: historical_economies;
+	width: 100%;
+	padding: 5px;
+	background: hsla(0, 98%, 8%, 1);
+	color: var(--light-color);
+	/*background-color: hsla(0, 0%, 0%, 1);*/
+	color: hsla(43, 100%, 62%, 1);
+	border-radius: var(--border-radius);
+}
+
+.nav_principal {
+	grid-area: nav_principal;
+	width: 100%;
+	padding: 5px;
+	background-color: hsla(0, 0%, 0%, 1);
+	border-radius: var(--border-radius);
+}
+
+.nav_external {
+	grid-area: nav_external;
+	width: 100%;
+	padding: 5px;
+	background-color: hsla(0, 0%, 0%, 1);
+	border-radius: var(--border-radius);
+}
+
+.link_descriptions {
+	font-size: var(--fs-link_descriptions);
+	background: hsla(0, 98%, 8%, 1);
+	/*background: var(--lightest-palette-color);*/
+}
+
+.normal_links {
+	font-size: var(--fs-normal_links);
+	text-decoration: none;
+	background: var(--darkest-palette-color);
+	/*background: hsla(0, 0%, 0%, 1);*/
+	/*color: hsla(332, 75%, 42%, 1);*/
+	color: #ffebcd;
+}
+
+.normal_links:hover {
+	font-size: var(--fs-normal_links);
+	text-decoration: none;
+	background: hsla(304, 75%, 67%, 1);
+	color: hsla(0, 0%, 0%, 1);
+}
+
+.subsection_normal_links {
+	text-decoration: none;
+	font-size: var(--fs-subsection_normal_links);
+	background: var(--darkest-palette-color);
+	/*background: hsla(0, 0%, 0%, 1);*/
+	/*color: hsla(332, 75%, 42%, 1);*/
+	color: #ffebcd;
+}
+
+.subsection_normal_links:hover {
+	text-decoration: none;
+	font-size: var(--fs-subsection_normal_links);
+	background: hsla(304, 75%, 67%, 1);
+	color: hsla(0, 0%, 0%, 1);
+}
+
+
+.nav_principal_list {
+	background: hsla(238, 93%, 28%, 1);
+	list-style-type: none;
+	font-size: var(--fs-nav_principal_list);
+	padding: var(--padding-nav_principal_list);
+}
+
+.nav_links {
+	line-height: var(--line-height-nav_links);
+	font-weight: var(--fw-bold-nav_links);
+	text-decoration: none;
+	color: hsla(360, 100%, 100%, 1);
+}
+
+.nav_links:hover {
+	line-height: var(--line-height-nav_links);
+	font-weight: var(--fw-bold-nav_links);
+	text-decoration: none;
+	color: hsla(59, 100%, 73%, 1);
+}
+
+
+
+
+
