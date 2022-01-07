@@ -139,7 +139,7 @@
 	"page_top page_top page_top"
 	"cowboy_up cowboy_up cowboy_up"
 	"nav_principal declarations declarations"
-	"nav_principal constitutions constitutions"
+	"nav_external constitutions constitutions"
 	"nav_external annexations annexations"
 	"nav_external historical_laws historical_laws"
 	"nav_external historical_economies historical_economies";
@@ -361,7 +361,7 @@
 
 
 .nav_principal_list {
-	background: hsla(238, 93%, 28%, 1);
+	background: hsla(0, 0%, 0%, 1);
 	list-style-type: none;
 	font-size: var(--fs-nav_principal_list);
 	padding: var(--padding-nav_principal_list);
@@ -371,7 +371,7 @@
 	line-height: var(--line-height-nav_links);
 	font-weight: var(--fw-bold-nav_links);
 	text-decoration: none;
-	color: hsla(360, 100%, 100%, 1);
+	color: var(--lightest-palette-color);
 }
 
 .nav_links:hover {
